@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#070b1c">
+  <meta name="description" content="Hola, tengo una sorpresa para ti.">
+  <title>Para Perla 💛</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23070b1c'/%3E%3Ccircle cx='32' cy='28' r='9' fill='%23f3c84b'/%3E%3Cg fill='%23ffd95e'%3E%3Cellipse cx='32' cy='12' rx='6' ry='11'/%3E%3Cellipse cx='32' cy='44' rx='6' ry='11'/%3E%3Cellipse cx='16' cy='28' rx='11' ry='6'/%3E%3Cellipse cx='48' cy='28' rx='11' ry='6'/%3E%3C/g%3E%3Cpath d='M32 44v17' stroke='%237b9b68' stroke-width='4'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/estilos.css">
+</head>
+<body>
+  <div class="cielo" aria-hidden="true">
+    <div class="luna"></div>
+    <div class="estrellas"></div>
+    <div class="resplandor"></div>
+  </div>
+
+  <main class="experiencia">
+    <section class="escena activa" data-escena="0">
+      <div class="contenido apertura">
+        <p class="detalle">Para ti, que siempre lo vales todo, incluso la distancia :)</p>
+        <h1>Hola, Perlita…</h1>
+        <p>Hay algo que la lejanía me ha complicado el día de hoy, ¿quieres saber qué es?</p>
+        <button class="boton" data-siguiente>Claro que quiero <span>💛</span></button>
+      </div>
+    </section>
+
+    <section class="escena" data-escena="1">
+      <div class="contenido recuerdo">
+        <p class="linea revelar">Han pasado más de nueve años desde que una pregunta sobre BTS empezó nuestra historia.</p>
+        <p class="linea revelar">Entre Teziu, Tijuana y el rincón del mundo donde te encuentres ahora,</p>
+        <p class="linea revelar">parece que la vida se ha esforzado bastante en mantenernos lejos.</p>
+        <p class="linea revelar giro">Pero ¿qué crees? Puedo ser creativo a veces y recordar que…</p>
+        <p class="linea revelar enfasis">¡Estudié sistemas!</p>
+        <button class="boton secundario revelar" data-siguiente>Resolver problema</button>
+      </div>
+    </section>
+
+    <section class="escena" data-escena="2">
+      <div class="contenido compilador">
+        <div class="terminal">
+          <div class="terminal-barra">
+            <i></i><i></i><i></i>
+            <span>para_perla.exe</span>
+          </div>
+          <div class="terminal-cuerpo" aria-live="polite"></div>
+        </div>
+        <button class="boton compilar" id="compilar">Compilar flores <span>🌼</span></button>
+      </div>
+    </section>
+
+    <section class="escena jardin-escena" data-escena="3">
+      <div class="texto-jardin">
+        <p class="frase-jardin">Nuestro color siempre ha sido el amarillo.</p>
+        <p class="frase-jardin">Así que hoy no podía dejar que la distancia te dejara sin flores.</p>
+      </div>
+      <div class="jardin" aria-hidden="true">
+        <img src="assets/jardin-amarillo.png" alt="">
+      </div>
+      <button class="continuar-jardin" data-siguiente aria-label="Continuar">⌄</button>
+    </section>
+
+    <section class="escena" data-escena="4">
+      <div class="contenido carta">
+        <div class="carta-luna" aria-hidden="true"></div>
+        <p>Una vez me dijiste que querías oír en persona cómo suena el amor con mi voz.</p>
+        <p>Mientras llega ese momento, quise mostrarte cómo se siente cuando pienso en ti.</p>
+        <button class="boton secundario" data-siguiente>Seguir leyendo</button>
+      </div>
+    </section>
+
+    <section class="escena" data-escena="5">
+      <div class="contenido declaracion">
+        <p>Quiero estar contigo.</p>
+        <p>Y vivir a tu lado momentos felices.</p>
+        <p>Quiero mostrarte no solo con mi voz, sino con todo lo que soy,</p>
+        <p>que puedo amarte como nadie.</p>
+        <div class="separador"><span></span>☾<span></span></div>
+        <p class="final-declaracion">Porque después de tantos años y tantos kilómetros, hay algo que nunca cambió:</p>
+        <h2>sigues siendo mi luna, ¿recuerdas?</h2>
+        <button class="boton" data-siguiente>Una cosa más</button>
+      </div>
+    </section>
+
+    <section class="escena final" data-escena="6">
+      <div class="contenido despedida">
+        <p class="detalle">21 de septiembre de 2026</p>
+        <h2>No son las que me hubiera gustado darte, pero son tus flores amarillas :)</h2>
+        <p>Estas pudieron encontrarte dondequiera que estés…</p>
+        <p class="pendientes">Por cierto, las de verdad quedan pendientes...</p>
+        <a class="spotify" href="https://open.spotify.com/track/2KvzZiRTXFozZeOvpUmZ9E?si=ezRnbesNSV2h6tF-M-1YCQ&amp;utm_source=copy-link" target="_blank" rel="noopener noreferrer">
+          <span class="spotify-icono">▶</span>
+          <span><small>Nuestra canción</small>Escuchémosla juntos alguna vez</span>
+        </a>
+        <p class="firma">Atentamente, <strong>Vampi</strong> 💛</p>
+      </div>
+      <div class="flores-final" aria-hidden="true"><img src="assets/jardin-amarillo.png" alt=""></div>
+    </section>
+  </main>
+
+  <div class="progreso" aria-hidden="true"><span></span></div>
+  <button class="sonido" id="sonido" aria-label="Activar sonidos" title="Activar sonidos">♪</button>
+  <script src="assets/experiencia.js"></script>
+</body>
+</html>
