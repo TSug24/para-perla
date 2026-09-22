@@ -653,6 +653,14 @@ h1 {
   .flores-final { bottom: -16rem; }
 }
 
+@media (max-width: 759px) {
+  .flores-final {
+    width: 112vw;
+    bottom: max(.5rem, env(safe-area-inset-bottom));
+    opacity: .78;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: .01ms !important;

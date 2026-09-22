@@ -73,7 +73,7 @@ botonCompilar.addEventListener("click", async () => {
   for (const [texto, estado, clase] of lineas) {
     agregarLinea(texto, estado, clase)
     tono(330, .05)
-    await espera(560)
+    await espera(1500)
   }
   await espera(350)
   agregarLinea("Compilación exitosa 💛", "", "", "exito")
